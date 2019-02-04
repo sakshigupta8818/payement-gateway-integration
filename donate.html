@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Donate</title>
+<style>
+button
+{height:60px;
+margin-top: 350px;
+margin-left:50px;
+font-weight:bold;
+background-color: red;
+  color: white;
+  padding: 12px;
+  border: none;
+  width: 10%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+body{ background-image:url(collage5.png);
+background-repeat: no-repeat;
+width: 100%; }
+* {
+  box-sizing: border-box;
+}
+</style>
+<script type="text/javascript" src="blink.js"></script>
+</head>
+<body onload="blinking_header()" onunload="stopTimer()">
+<center>
+<button type="button" id="blink" onclick="window.open('checkout.php','_self')">DONATE</button>
+</center>
+</body>
+</html>
